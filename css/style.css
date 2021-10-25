@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #083b4c;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-block: 30px;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    color: black;
+    display: grid;
+    place-items: center;
+}
+
+.fizz {
+    background-color: #0bd6a1;
+}
+
+.buzz {
+    background-color: #ffd166;
+}
+
+.fizzBuzz {
+    background-color: #f0466f;
+}
