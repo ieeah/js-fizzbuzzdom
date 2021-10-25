@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 16px;
+}
+
 body {
     background-color: #083b4c;
     display: grid;
@@ -15,7 +19,14 @@ body {
 
 h1 {
     font-size: 5rem;
-    margin-block: 30px;
+    /* margin-block: 30px; */
+}
+
+.board {
+    max-width: 1200px;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .box {
@@ -24,6 +35,8 @@ h1 {
     color: black;
     display: grid;
     place-items: center;
+    margin: 1rem;
+    background-color: #1389b2;
 }
 
 .fizz {
